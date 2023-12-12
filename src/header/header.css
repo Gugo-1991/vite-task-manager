@@ -1,0 +1,43 @@
+.header {
+  width: 99%;
+  height: 4rem;
+  background: radial-gradient(
+    circle,
+    rgba(129, 124, 126, 1) 40%,
+    rgba(162, 173, 185, 0) 68%
+  );
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header-form {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.rule-dropdown {
+  width: auto;
+  display: inline-flex;
+  height: 1.7rem;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.2rem;
+  background: #226ab2;
+}
+.rule-dropdown select {
+  width: 4rem;
+  border: none;
+  background-color: #226ab2;
+  outline: none;
+  font-family: cursive;
+  font-size: 1rem;
+}
+.label-for-drp {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
