@@ -24,9 +24,10 @@
   justify-content: flex-end;
   align-items: center;
   flex-shrink: 0;
-  border-radius: 0.2rem;
+  border-radius: 0.1rem;
   background: #226ab2;
 }
+
 .rule-dropdown select {
   width: 4rem;
   border: none;
