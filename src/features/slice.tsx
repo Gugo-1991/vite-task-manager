@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { ChangeStatus } from "./hooks";
-
+import { ChangeStatus } from "./actionCreators/changeStatus";
 interface Item {
   id: number;
   title: string;

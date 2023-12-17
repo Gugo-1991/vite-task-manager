@@ -8,7 +8,6 @@
   background-color: rgba(52, 52, 246, 0.7);
 }
 .addButton:hover {
-  gap: 1rem;
   background-color: rgba(35, 209, 12, 0.3);
 }
 .titleInput {
