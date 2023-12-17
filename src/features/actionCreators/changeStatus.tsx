@@ -1,4 +1,4 @@
-import { statuses } from "../Components/status";
+import { statuses } from "../../Components/status";
 
 interface Item {
   id: number;
